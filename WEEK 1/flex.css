@@ -1,0 +1,7 @@
+.container{
+    background-color: yellow;
+    display: flex;
+}
+.items{
+    background-color: hotpink;
+}

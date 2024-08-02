@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .nav{
+            background-color: dodgerblue;
+            padding: 10px;    
+        }
+
+        .nav li{
+            display: inline-block;
+            text-decoration: none;
+           
+        }
+        .link{
+            text-decoration: none;
+            font-size: x-large;
+            margin: 20px;
+            padding: 20px;
+            
+        }
+        .section{
+            padding: 20px;
+            border: 1px solid green;
+            margin-top: 100px;  
+           
+            
+        }
+        body{
+            margin: 0px;
+           text-align: center; 
+    
+        }
+        .image{
+            height: 100px;
+            width: 100px;
+            float: right; 
+            opacity: 0.5;
+            
+        }
+        img:hover {
+            opacity: 1.0;
+        }
+        .section::after{
+            display: table;
+            clear: both;
+            content: "";
+        }
+        .text{
+            line-height: 100px;
+        }
+        
+    </style>
+</head>
+<body>
+   <div class="nav">
+    <ul >
+                <li><a class="link" href="#home">Home</a></li>
+                <li><a class="link" href="#home">My Works</a></li>
+                <li><a class="link" href="#home">Achivements</a></li>
+                <li><a class="link" href="#home">About</a></li>
+            </ul>
+   </div>
+
+   <div class="section">
+    <p class="text">This is a container </p>
+    <img src="images/leo.jpg" class="image" alt="leo movie">
+
+   </div>
+</body>
+</html>
